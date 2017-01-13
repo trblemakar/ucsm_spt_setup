@@ -14,3 +14,5 @@ How to run the program
 docker run -it --name ucs_ppt 'your_username'/ucs_ppt_image /bin/sh
 
 python deploy_ucs_ppt.py -i 'ucs_vip' -u 'user_name' -c 'json_config_file' (note: copy the json config file to the ucs_ppt_py dir)
+
+exmaple json files located in /example_json
