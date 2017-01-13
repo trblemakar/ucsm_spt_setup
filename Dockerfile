@@ -12,4 +12,7 @@ RUN apk add --update \
 && rm -rf /var/cache/apk/*
 
 COPY example_json.zip /
+RUN unzip exmaple_json.zip
+
 COPY ucs_ppt_py.zip /
+RUN unzip ucs_ppt_py.zip
