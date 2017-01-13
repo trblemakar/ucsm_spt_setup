@@ -7,11 +7,11 @@ This build leverages Alpine Linux, Python 2.7 and UCS Python SDK v0.9
 
 How to build the image
 
-docker build -t 'your_username'/ucs_ppt_image https://github.com/trblemakar/ucs_ppt.git
+docker build -t 'image_name' https://github.com/trblemakar/ucs_ppt.git
 
 How to run the program
 
-docker run -it --name ucs_ppt 'your_username'/ucs_ppt_image /bin/sh
+docker run -it --name ucs_ppt 'image_name' /bin/sh
 
 python deploy_ucs_ppt.py -i 'ucs_vip' -u 'user_name' -c 'json_config_file' (note: copy the json config file to the ucs_ppt_py dir)
 
