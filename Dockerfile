@@ -13,6 +13,8 @@ RUN apk add --update \
 
 COPY example_json.zip /
 RUN unzip exmaple_json.zip
+RUN rm example_json.zip
 
 COPY ucs_ppt_py.zip /
 RUN unzip ucs_ppt_py.zip
+RUN rm ucs_ppt_py.zip
