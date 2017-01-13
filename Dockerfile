@@ -7,6 +7,7 @@ MAINTAINER Jason Makar <jmakar@mac.com>
 RUN apk add --update \
     python \
     py-pip \
+    pip install --upgrade pip \
 && pip install ucsmsdk \
 && rm -rf /var/cache/apk/*
 
