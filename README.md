@@ -11,4 +11,4 @@ How to run the program
 
 docker run -it --name ucs_ppt jmakar/ucs_ppt_image /bin/sh
 
-python deploy_ucs -i <ucs_vip> -u <user_name> -c <json_config_file>
+python deploy_ucs -i 'ucs_vip' -u 'user_name' -c 'json_config_file'
