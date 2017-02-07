@@ -17,6 +17,6 @@ python deploy_ucs_ppt.py -i 'ucs_vip' -u 'user_name' -c 'json_config_file(pools_
 
 exmaple json files located in /ucs_example_json
 
-added another app that creates a custom bios policy (example json files located in /ucs_example_json/bios)
+added another program that creates a custom bios policy (example json files located in /ucs_example_json/bios)
 
 python deploy_ucs_bios.py -i 'ucs_vip' -u 'user_name' -c 'json_config_file(bios)' (note: copy the json config file to the ucs_ppt_py dir)
