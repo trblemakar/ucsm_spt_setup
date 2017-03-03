@@ -7,7 +7,7 @@ This build leverages Alpine Linux, Python 2.7 and UCS Python SDK v0.9 in a Docke
 
 How to build the image
 
-docker build -t 'image_name' https://github.com/trblemakar/ucs_ppt.git
+docker build --no-cache -t 'image_name' https://github.com/trblemakar/ucs_ppt.git
 
 How to run the program
 
