@@ -13,8 +13,8 @@ How to run the program
 
 docker run -it --name ucs_ppt 'image_name' /bin/sh
 
-python deploy_ucs_ppt.py -i 'ucs_vip' -u 'user_name' -c 'json_config_file(pools_policies_temp)' (note: copy the json config file to the ucs_ppt_py dir) (example json files located in /ucs_example_json)
+python deploy_ucs_ppt.py
 
-added another program that creates a custom bios policy for different workload types. i.e. virtualization, Java EE... (example json files located in /ucs_example_json/bios)
+(example json files located in /ucs_example_json)
 
-python deploy_ucs_bios.py -i 'ucs_vip' -u 'user_name' -c 'json_config_file(bios)' (note: copy the json config file to the ucs_ppt_py dir)
+(note: copy the json config file to the ucs_ppt_py dir)
