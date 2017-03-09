@@ -13,6 +13,8 @@ How to run the program
 
 docker run -it --name ucs_ppt ucs_ppt-img /bin/sh
 
+cd ucs_ppt_py/
+
 python deploy_ucs_ppt.py
 
 (example json files located in /ucs_example_json)
