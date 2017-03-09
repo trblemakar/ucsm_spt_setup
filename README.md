@@ -18,5 +18,3 @@ cd ucs_ppt_py/
 python deploy_ucs_ppt.py
 
 (example json files located in /ucs_example_json)
-
-(note: copy the json config file to the ucs_ppt_py dir)
