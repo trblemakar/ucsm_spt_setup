@@ -1,5 +1,5 @@
 # ucs_ppt
-Version 1.0
+Version 1.1
 
 This is a Python program I built to help me speed up the time to deploy Cisco UCS pools, policies and templates (ppt) from an input json file.
 
