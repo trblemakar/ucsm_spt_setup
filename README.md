@@ -1,11 +1,11 @@
 # ucs_ppt
 Version 1.2
 
-This is a Python program I built to help me speed up the time to deploy Cisco UCS pools, policies and templates (ppt) from an input json file.
+This is a Python program I built to help me speed up the time to deploy Cisco UCSM pools, policies and templates (ppt) from an input json file.
 
 *** This is still in development and should be used with caution. This has been tested on the 3.1(2b) UCS emulator. Test out on a non production or emulated system first ***
 
-This build leverages Alpine Linux, Python 2.7 and UCS Python SDK v0.9 in a Docker container
+This build leverages Alpine Linux, Python 2.7 and UCSM Python SDK v0.9 in a Docker container
 
 How to build the image
 
