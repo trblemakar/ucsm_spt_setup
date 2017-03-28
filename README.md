@@ -1,5 +1,5 @@
 # ucs_ppt
-Version 1.2
+Version 1.3
 
 This is a Python program I built to help me speed up the time to deploy Cisco UCSM pools, policies and templates (ppt) from an input json file.
 
@@ -9,14 +9,14 @@ This build leverages Alpine Linux, Python 2.7 and UCSM Python SDK v0.9 in a Dock
 
 How to build the image
 
-docker build --no-cache -t ucs_ppt-img https://github.com/trblemakar/ucs_ppt.git
+docker build --no-cache -t ucsm_spt-img https://github.com/trblemakar/ucs_ppt.git
 
 How to run the program
 
-docker run -it --name ucs_ppt ucs_ppt-img /bin/sh
+docker run -it --name ucsm_spt ucsm_spt-img /bin/sh
 
-cd ucs_ppt_py/
+cd ucsm_spt_py/
 
-python deploy_ucs_ppt.py
+python deploy_ucsm_spt.py
 
-(example json files located in /ucs_example_json)
+(example json config files located in /ucsm_spt_py/ucs_configs)
