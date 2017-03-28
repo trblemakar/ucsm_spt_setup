@@ -9,11 +9,11 @@ This build leverages Alpine Linux, Python 2.7 and UCSM Python SDK v0.9 in a Dock
 
 How to build the image
 
-docker build --no-cache -t ucsm_spt-img https://github.com/trblemakar/ucs_ppt.git
+docker build --no-cache -t ucsm_spt-img https://github.com/trblemakar/ucsm_spt_setup.git
 
 How to run the program
 
-docker run -it --name ucsm_spt ucsm_spt-img /bin/sh
+docker run -it --name ucsm_spt_setup ucsm_spt-img /bin/sh
 
 cd ucsm_spt_py/
 
