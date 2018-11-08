@@ -19,4 +19,4 @@ cd ucsm_spt_py/
 
 python deploy_ucsm_spt.py
 
-(example json config files located in /ucsm_spt_py/ucs_configs)
+(example json config files located in ~/ucs_configs)
