@@ -1,4 +1,4 @@
-# ucs_ppt
+# ucsm_spt
 Version 1.6
 
 This is a Python script I built to help me speed up the time to deploy Cisco UCS pools, policies and templates (ppt).  Input is from a json file.
