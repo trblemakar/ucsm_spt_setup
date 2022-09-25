@@ -1,11 +1,11 @@
 # ucsm_spt
-Version 1.8
+Version 1.9
 
 This is a Python script I built to help me speed up the time to deploy Cisco UCS pools, policies and templates (ppt).  Input is from a json file.
 
-*** This is still in development and should be used with caution. This has been tested on the 3.1(2e), 3.2(3e) & 4.0(2d) UCS platform emulator. Test out on a non production or emulated system first ***
+*** This is still in development and should be used with caution. This has been tested on the 3.1(2e), 3.2(3e), 4.0(2d) and 4.2 UCS platform emulator. Test out on a non production or emulated system first ***
 
-This build leverages Alpine Linux, Python 2.7 and UCSM Python SDK v0.9.8 in a Docker container
+This build leverages Alpine Linux, Python 3 and UCSM Python SDK v0.9.8 in a Docker container
 
 How to build the image
 
